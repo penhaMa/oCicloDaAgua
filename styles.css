@@ -1,0 +1,228 @@
+/* Define o estilo global para o corpo da página */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* Remove margens externas */
+    padding: 0;
+    /* Remove preenchimento interno */
+    background-color: #3d45db;
+    /* Define a cor de fundo da página */
+}
+
+
+/* Define o estilo para o cabeçalho (header) da página */
+
+header {
+    color: #693ddb;
+    text-align: center;
+    padding: 80px;
+}
+
+
+/* Estilize o texto centralizado conforme suas necessidades */
+
+.center-text {
+    flex-grow: 1;
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+}
+
+
+/* Define o estilo para a seção principal da página */
+
+section {
+    flex-grow: 1;
+    width: 60%;
+    /* Define a largura máxima da seção principal */
+    margin: 20px auto;
+    /* Centraliza a seção horizontalmente e adiciona margens nas laterais */
+    padding: 20px;
+    /* Adiciona preenchimento interno à seção principal */
+    background-color: #3e77db;
+    /* Define a cor de fundo da seção principal */
+    border-radius: 5px;
+    /* Adiciona cantos arredondados com raio de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave à seção principal */
+}
+
+
+/* Define o estilo para a seção secundária da página */
+
+article {
+    width: 80%;
+    /* Define a largura máxima da seção principal */
+    margin: 20px auto;
+    /* Centraliza a seção horizontalmente e adiciona margens nas laterais */
+    padding: 20px;
+    /* Adiciona preenchimento interno à seção principal */
+    background-color: #3da9db;
+    /* Define a cor de fundo da seção principal */
+    border-radius: 5px;
+    /* Adiciona cantos arredondados com raio de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave à seção principal */
+}
+
+
+/* Define o estilo para o título de nível 1 (h1) */
+
+h1 {
+    color: #ffffff;
+    font-size: 45px;
+    /* Define o tamanho da fonte para h1 */
+}
+
+ul {
+    color: #ffffff;
+}
+
+
+/* Define o estilo para o título de nível 2 (h2) */
+
+h2 {
+    color: #ffffff;
+    font-size: 35px;
+    /* Define o tamanho da fonte para h2 */
+    text-align: center;
+    /* Centraliza o texto do h2 horizontalmente */
+}
+
+a {
+    font-size: 30px;
+    /* Define o tamanho da fonte para h2 */
+    text-align: center;
+    /* Centraliza o texto do h2 horizontalmente */
+}
+
+
+/* Define o estilo para o título de nível 3 (h3) */
+
+h3 {
+    color: #ffffff;
+    /* Define a cor do texto para h3 */
+    font-size: 20px;
+    /* Define o tamanho da fonte para h3 */
+    text-align: center;
+    /* Centraliza o texto do h3 horizontalmente */
+}
+
+
+/* Define o estilo para parágrafos (p) */
+
+p {
+    color: #000000;
+    font-size: 30px;
+    /* Define o tamanho da fonte para p */
+    text-align: center;
+    /* Centraliza o texto dos parágrafos horizontalmente */
+}
+
+
+/* Define o estilo para listas (li) */
+
+li {
+    font-size: 20px;
+    /* Define o tamanho da fonte para itens de lista (li) */
+}
+
+
+/* Define o estilo para a barra de navegação (nav) */
+
+nav {
+    background-color: #575ee8;
+    /* Define a cor de fundo da barra de navegação */
+    padding: 10px;
+    /* Adiciona preenchimento interno à barra de navegação */
+    text-align: center;
+    /* Centraliza o conteúdo da barra de navegação horizontalmente */
+}
+
+
+/* Define o estilo para links dentro da barra de navegação (nav a) */
+
+nav a {
+    color: #ffffff;
+    /* Define a cor do texto dos links */
+    text-decoration: none;
+    /* Remove a decoração de texto sublinhado dos links */
+    margin: 0 20px;
+    /* Adiciona margens à esquerda e à direita dos links */
+}
+
+
+/* Define o estilo para links dentro da barra de navegação quando hover (passar o mouse por cima) */
+
+nav a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado aos links quando hover */
+}
+
+
+/* Estilize a imagem com uma classe específica */
+
+.imagem-centralizada {
+    display: block;
+    /* Certifica-se de que a imagem seja exibida como um bloco */
+    margin-left: auto;
+    /* Define a margem esquerda como "auto" para centralizar horizontalmente */
+    margin-right: auto;
+    /* Define a margem direita como "auto" para centralizar horizontalmente */
+}
+
+
+/* Define o estilo para o rodapé (footer) da página */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3d45db;
+    margin-top: 20px;
+}
+
+
+/* Define o estilo para o botão quando hover (passar o mouse por cima) */
+
+.botao-link:hover {
+    background-color: #12122b;
+    /* Define a cor de fundo do botão ao passar o mouse */
+}
+
+
+/* Criamos duas colunas uma do lado da outra */
+
+
+/* Coluna da esquerda */
+
+.leftcolumn {
+    float: left;
+}
+
+
+/* Coluna da direita */
+
+.rightcolumn {
+    float: right;
+}
+
+
+/* As duas colunas */
+
+aside {
+    text-align: center;
+    width: 15%;
+    background-color: #3da9db;
+    margin: 20px auto;
+    /* Centraliza a seção horizontalmente e adiciona margens nas laterais */
+    padding: 20px;
+    /* Adiciona preenchimento interno à seção principal */
+    border-radius: 5px;
+    /* Adiciona cantos arredondados com raio de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave à seção principal */
+}
+
+.container {
+    display: flex;
+}
